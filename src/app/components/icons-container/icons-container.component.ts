@@ -16,8 +16,15 @@ export class IconsContainerComponent implements OnInit {
   Icons: string[] = [];
 
   IconsList: { [key: string]: string } = {
+    "Csharp": "devicon-csharp-plain",
+    "Java": "devicon-java-plain",
+    "Python": "devicon-python-plain",
+    "SqlServer": "devicon-microsoftsqlserver-plain",
+    "MySql": "devicon-mysql-plain",
+    "PostgreSql": "devicon-postgresql-plain",
+    "HTML": "devicon-html5-plain",
+    "Css": "devicon-css3-plain",
+    "Bootstrap": "devicon-bootstrap-plain",
     "Angular": "devicon-angularjs-plain",
-    "Android": "devicon-android-plain",
-    "Adonis": "devicon-adonisjs-original",
   };
 }
