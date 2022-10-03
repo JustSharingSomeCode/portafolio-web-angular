@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-icons',
@@ -12,7 +12,9 @@ export class IconsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  @Input()
   baseIcon : string = "devicon-angularjs-plain";
+
   colored : string = "";
 
   UpdateColor(value: boolean)
