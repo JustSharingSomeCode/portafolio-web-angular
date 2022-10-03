@@ -1,5 +1,5 @@
 <div [ngClass]="'icons-container ' + gapSize">
     <ng-container *ngFor="let icon of Icons">
-        <app-icons [baseIcon]="IconsList[icon]" [size]="IconSize"></app-icons>
+        <app-icons [baseIcon]="IconsList[icon]" [size]="IconSize" [showText]="ShowText" [iconName]="icon"></app-icons>
     </ng-container>
 </div>

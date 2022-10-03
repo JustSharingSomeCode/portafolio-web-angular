@@ -18,10 +18,16 @@ export class IconsComponent implements OnInit {
   }
 
   @Input()
+  iconName : string = "test";
+
+  @Input()
   baseIcon : string = "devicon-angularjs-plain";
 
   @Input()
   size : string = "big";
+
+  @Input()
+  showText : boolean = false;
 
   iconSize : string = "icon-big";
   containerSize : string = "container-big";

@@ -17,6 +17,9 @@ export class IconsContainerComponent implements OnInit {
   }
 
   @Input()
+  ShowText : boolean = false;
+
+  @Input()
   IconSize : string = "big";
 
   gapSize : string = "gap-big";
