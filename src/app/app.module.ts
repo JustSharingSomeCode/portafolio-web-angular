@@ -6,6 +6,7 @@ import { IconsComponent } from './components/icons/icons.component';
 import { IconsContainerComponent } from './components/icons-container/icons-container.component';
 import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     IconsComponent,
     IconsContainerComponent,
     AboutComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule
