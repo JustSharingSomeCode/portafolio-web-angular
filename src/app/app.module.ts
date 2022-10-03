@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { IconsComponent } from './components/icons/icons.component';
+import { IconsContainerComponent } from './components/icons-container/icons-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IconsComponent
+    IconsComponent,
+    IconsContainerComponent
   ],
   imports: [
     BrowserModule
