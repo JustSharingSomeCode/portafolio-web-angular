@@ -1,9 +1,18 @@
 .icons-container
 {
     display: flex;
-    gap: 40px;
     flex-wrap: wrap;
 
     align-content: center;
     justify-content: center;
+}
+
+.gap-big
+{
+    gap: 40px;
+}
+
+.gap-small
+{
+    gap: 20px;
 }

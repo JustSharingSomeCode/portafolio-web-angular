@@ -10,10 +10,16 @@ export class IconsContainerComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    if(this.IconSize === "small")
+    {
+      this.gapSize = "gap-small";
+    }
   }
 
   @Input()
   IconSize : string = "big";
+
+  gapSize : string = "gap-big";
 
   @Input()
   Icons: string[] = [];
