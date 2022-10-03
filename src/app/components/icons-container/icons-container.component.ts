@@ -10,7 +10,19 @@ export class IconsContainerComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    if(this.IconSize === "small")
+    {
+      this.gapSize = "gap-small";
+    }
   }
+
+  @Input()
+  ShowText : boolean = false;
+
+  @Input()
+  IconSize : string = "big";
+
+  gapSize : string = "gap-big";
 
   @Input()
   Icons: string[] = [];
@@ -26,5 +38,9 @@ export class IconsContainerComponent implements OnInit {
     "Css": "devicon-css3-plain",
     "Bootstrap": "devicon-bootstrap-plain",
     "Angular": "devicon-angularjs-plain",
+    ".Net Core" : "devicon-dotnetcore-plain",
+    "Unity" : "devicon-unity-original",
+    "OpenTk" : "devicon-opengl-plain",
+    "Tomcat" : "devicon-tomcat-line"
   };
 }

@@ -10,22 +10,25 @@ export class IconsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    if (this.size === "small")
+    {
+      this.iconSize = "icon-small";
+      this.containerSize = "container-small";
+    }
   }
+
+  @Input()
+  iconName : string = "test";
 
   @Input()
   baseIcon : string = "devicon-angularjs-plain";
 
-  colored : string = "";
+  @Input()
+  size : string = "big";
 
-  UpdateColor(value: boolean)
-  {    
-    if (value) 
-    {
-      this.colored = "colored";
-    }
-    else
-    {
-      this.colored = "";
-    }
-  }
+  @Input()
+  showText : boolean = false;
+
+  iconSize : string = "icon-big";
+  containerSize : string = "container-big";
 }

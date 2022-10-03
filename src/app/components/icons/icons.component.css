@@ -1,6 +1,5 @@
 i
 {
-    font-size: 40px;
     display: flex;
     text-align: center;
 }
@@ -10,11 +9,40 @@ i
     align-items: center;
     justify-content: center;
 
-    width: 80px;
-    height: 80px;
-
-    border-radius: 50px;
-    background-color: whitesmoke;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
 
     display: flex;
+
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.icon-container p 
+{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.icon-big
+{
+    font-size: 40px;
+}
+
+.icon-small
+{
+    font-size: 20px;
+}
+
+.container-big
+{
+    width: 80px;
+    height: 80px;
+}
+
+.container-small
+{
+    width: 40px;
+    height: 40px;
 }
