@@ -13,6 +13,9 @@ export class IconsContainerComponent implements OnInit {
   }
 
   @Input()
+  IconSize : string = "big";
+
+  @Input()
   Icons: string[] = [];
 
   IconsList: { [key: string]: string } = {

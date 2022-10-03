@@ -1,6 +1,5 @@
 i
 {
-    font-size: 40px;
     display: flex;
     text-align: center;
 }
@@ -10,11 +9,30 @@ i
     align-items: center;
     justify-content: center;
 
-    width: 80px;
-    height: 80px;
-
     border-radius: 50px;
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.6);
 
     display: flex;
+}
+
+.icon-big
+{
+    font-size: 40px;
+}
+
+.icon-small
+{
+    font-size: 20px;
+}
+
+.container-big
+{
+    width: 80px;
+    height: 80px;
+}
+
+.container-small
+{
+    width: 40px;
+    height: 40px;
 }
