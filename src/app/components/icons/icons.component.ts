@@ -25,19 +25,4 @@ export class IconsComponent implements OnInit {
 
   iconSize : string = "icon-big";
   containerSize : string = "container-big";
-
-  
-  colored : string = "colored";
-
-  UpdateColor(value: boolean)
-  {    
-    if (value) 
-    {
-      this.colored = "colored";
-    }
-    else
-    {
-      this.colored = "";
-    }
-  }
 }
