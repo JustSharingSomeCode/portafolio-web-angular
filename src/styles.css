@@ -5,9 +5,14 @@ body {
     background: linear-gradient(167deg, rgba(218, 255, 232, 1) 0%, rgba(196, 255, 252, 1) 50%, rgba(205, 222, 255, 1) 100%);
 }
 
-h1 {
+h1, h5 {
     font-family: 'Righteous', cursive;
     text-align: center;
+}
+
+h5
+{
+    color: rgb(125, 125, 125);
 }
 
 p {
@@ -19,7 +24,7 @@ p {
     height: 20px;
 }
 
-.card {
+.crystal-card {
     /*background-color: white;*/
     border-radius: 20px;
     padding: 20px 50px 30px 50px;
