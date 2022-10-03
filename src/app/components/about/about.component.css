@@ -1,0 +1,26 @@
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+}
+
+.img-container
+{
+    margin: 50px;
+    display: flex;
+
+    justify-content: center;
+}
+
+.img
+{
+    width: 100%;
+    max-width: 300px;
+
+    height: auto;
+    border-radius: 100%;
+}
