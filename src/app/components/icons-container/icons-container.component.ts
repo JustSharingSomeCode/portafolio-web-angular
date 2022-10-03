@@ -38,5 +38,6 @@ export class IconsContainerComponent implements OnInit {
     "Css": "devicon-css3-plain",
     "Bootstrap": "devicon-bootstrap-plain",
     "Angular": "devicon-angularjs-plain",
+    ".Net Core" : "devicon-dotnetcore-plain"
   };
 }
